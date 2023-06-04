@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Battleship</title>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Battleship</h1>
+    <h3>Place the ships(click on the cells of your gameboard)</h3>
+    <button id="start">Start game</button>
+    <div id="gameboards-container">
+      <div>
+        <h4>You</h4>
+
+        <div class="gameboard" id="player-gameboard"></div>
+      </div>
+      <div>
+        <h4>Opponent</h4>
+        <div class="gameboard" id="opponent-gameboard"></div>
+      </div>
+    </div>
+    <div id="endPage">
+      <p id="result"></p>
+    </div>
+  </body>
+</html>
