@@ -1,0 +1,28 @@
+#gameboards-container{
+    display:flex;
+    justify-content: space-around;
+}
+
+
+.gameboard{
+    display:grid;
+    height:350px;
+    width:350px;
+ }
+ .gameboard div{
+     border-style:solid;
+     border-width:thin;
+     border-color: black;
+ }
+ #endPage {
+    position: fixed;
+    background-color: black;
+    color: white;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.9;
+    font-size: 50px;
+    font-weight: 900;
+  }
